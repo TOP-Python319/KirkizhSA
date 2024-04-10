@@ -30,3 +30,7 @@ for num in range(start_number, end_number):
         elif num % div != 0 and div == num - 1:
             count += 1
 print(count)   
+
+
+# Комментарий преподавателя:
+# можно уменьшить количество итераций внутри цикла в два раза, сдвинув правую границу

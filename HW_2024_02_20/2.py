@@ -25,3 +25,7 @@ while True:
     if num == 0:
         break
 print(sum(number_list))
+
+
+# Комментарии преподавателя:
+# Всё верно.

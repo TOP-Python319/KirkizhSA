@@ -25,3 +25,6 @@ while True:
 for num in reversed(number_list):
     print(num, end=' ')
 
+
+# Комментарии преподавателя:
+# всё отлично никаких замечаний
