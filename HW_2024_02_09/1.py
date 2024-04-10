@@ -33,3 +33,8 @@ print("Сумма положительных чисел: ", sum_positive)
         Введите третье число: 12
         Сумма положительных чисел:  24.0
 >>> """
+
+
+# Комментарии преподавателя:
+# можно заменить if на list comprehension
+# sum_positive = sum([num for num in (num1, num2, num3) if num > 0])
