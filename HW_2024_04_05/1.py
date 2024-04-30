@@ -19,7 +19,7 @@ with open("text.txt", "r", encoding='UTF-8') as text:
 with open("text.txt", "r", encoding='UTF-8') as text:
     contents = text.read()
     dict_contens = contents.split()
-    reversed_contents =dict_contens.copy()
+    reversed_contents = dict_contens.copy()
     reversed_contents.reverse() 
     my_string = ' '.join(reversed_contents)          
     print(my_string)
