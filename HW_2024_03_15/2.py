@@ -47,3 +47,6 @@ if len(fruits) == 1:
 else:
     formatted_string = ", ".join(fruits[:-1]) + " и " + fruits[-1]
     print(formatted_string)
+
+# Комментарий преподавателя:
+# всё верно

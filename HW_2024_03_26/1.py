@@ -19,5 +19,10 @@ def double_fact(n):
     else:
         return n * double_fact(n-2)
  
+<<<<<<< HEAD
  
 print(double_fact(4))
+=======
+# Комментарий преподавателя:
+# всё верно!
+>>>>>>> cc45d2fc74891cae646dc051de71f8fe427bf621
