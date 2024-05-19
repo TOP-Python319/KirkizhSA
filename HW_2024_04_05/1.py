@@ -25,3 +25,5 @@ with open("text.txt", "r", encoding='UTF-8') as text:
     print(my_string)
 
 #line. each of letter first the out print and secret_message.txt Read   
+
+# всё верно

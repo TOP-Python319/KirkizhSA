@@ -34,3 +34,5 @@ with open("nums.txt", "r", encoding="utf-8") as nums:
 
 
 # Результат: 124410
+
+# всё верно

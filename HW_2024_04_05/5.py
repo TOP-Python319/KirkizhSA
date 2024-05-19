@@ -30,3 +30,5 @@ with open('input.txt', 'r') as file:
 with open('output.txt', 'w') as file:
     for index, line in enumerate(lines, start=1):
         file.write(f"{index}) {line}")
+
+# всё верно

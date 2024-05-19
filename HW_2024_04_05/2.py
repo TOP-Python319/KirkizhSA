@@ -20,3 +20,5 @@ with open("data.txt", "r", encoding="utf-8") as data:
     
     
     # del_contens = contents.reple
+
+# всё верно
