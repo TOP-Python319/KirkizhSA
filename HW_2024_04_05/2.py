@@ -20,3 +20,13 @@ with open("data.txt", "r", encoding="utf-8") as data:
     
     
     # del_contens = contents.reple
+
+# Complex is better than complicated.
+# Simple is better than complex.
+# Explicit is better than implicit.
+# Beautiful is better than ugly.
+
+# Beautiful is better than ugly.
+# Explicit is better than implicit.
+# Simple is better than complex.
+# Complex is better than complicated.

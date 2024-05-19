@@ -28,29 +28,29 @@
 
 
 class Stack:
-    def __init__(self) -> None:
+    def __init__(self) -> None: #создаёт новый пустой стек. 
         self.values = []
 
-    def push(self, item):
+    def push(self, item): #добавляет новый элемент на вершину стека, метод ничего не возвращает;
         self.values.append(item)
     
-    def pop(self):
+    def pop(self): #метод pop() удаляет верхний элемент из стека.
         if len(self.values) == 0:
-            print('Empti Stack')
+            print('Empty Stack')
         else:
             return self.values.pop()
     
-    def peek(self):
+    def peek(self): #возвращает верхний элемент стека, но не удаляет его.
         if len(self.values) == 0:
-            print('Empti Stack')
+            print('Empty Stack')
             return None
         else:
             return self.values[-1]
     
-    def is_empty(self):
+    def is_empty(self): #проверяет стек на пустоту.
         return len(self.values) == 0
     
-    def size(self):
+    def size(self): #возвращает количество элементов в стеке.
         return len(self.values)
 stack = Stack()
 stack.push(10)
