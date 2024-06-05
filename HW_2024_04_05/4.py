@@ -22,3 +22,5 @@ with open("random.txt", "w") as file:
     for r in range(25):
         random_num = random.randint(111, 777)
         file.write(str(random_num) + "\n")
+
+# всё верно

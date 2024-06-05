@@ -21,6 +21,7 @@ with open("data.txt", "r", encoding="utf-8") as data:
     
     # del_contens = contents.reple
 
+<<<<<<< HEAD
 # Complex is better than complicated.
 # Simple is better than complex.
 # Explicit is better than implicit.
@@ -30,3 +31,6 @@ with open("data.txt", "r", encoding="utf-8") as data:
 # Explicit is better than implicit.
 # Simple is better than complex.
 # Complex is better than complicated.
+=======
+# всё верно
+>>>>>>> 2172979eab770d3c8c27e997331cabe9726cc638
