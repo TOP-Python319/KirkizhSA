@@ -53,3 +53,25 @@ assert user1.has_permission('execute') is False
 print('Good')
 
 # Good
+
+
+# Комментарий преподавателя:
+
+# 1. Правильно реализован миксин PermissionMixin с методами grant_permission, revoke_permission и has_permission,
+#     используя множество permissions для хранения разрешений.
+# 2. Верно создан класс User, наследующийся от PermissionMixin и имеющий атрибуты name и email.
+# 3. Код работает корректно и проходит все проверки, указанные в примерах использования.
+
+# Что можно улучшить:
+
+# 1. В задании не указан реализация проверки вводимых данных, но если это необходимо, можно добавить проверку типов и значений атрибутов name, email и permissions.
+# 2. В методе revoke_permission можно добавить проверку наличия разрешения перед его удалением из множества permissions.
+# Это позволит избежать ошибок при попытке удалить несуществующее разрешение. Например:
+# def revoke_permission(self, permission):
+#     if permission in self.permissions:
+#         self.permissions.discard(permission)
+#     else:
+#         print(f"Разрешение '{permission}' не найдено.")
+
+
+# Отличная работа!
